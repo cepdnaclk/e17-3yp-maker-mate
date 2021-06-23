@@ -17,18 +17,18 @@
             "website": "#"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
-            "github_profile":"#",
-            "linkedin_profile":"#",
-            "website": "#"
+            "name": "Madhushan R.",
+            "email": "e17194@eng.pdn.ac.lk",
+            "eNumber": "E/17/194",
+            "github_profile":"https://github.com/DrMadhushan/",
+            "linkedin_profile":"https://www.linkedin.com/in/madhushan-ramalingam/",
+            "website": "https://www.drmadhushan.me/"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk",
+            "name": "Dr. Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk",
             "linkedin_profile":"#",
             "researchgate_profile":"#",
             "website": "#"
