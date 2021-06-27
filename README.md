@@ -10,7 +10,7 @@ This is a short desciption of the project. This section should be around 3 sente
 
 ## Team Members
 1. E/15/001 Student Name [[Website](http://www.ce.pdn.ac.lk/e15-batch/), [Email](mailto:e5001@ce.pdn.ac.lk)]
-2. E/15/002 Student Name [[Website](http://www.ce.pdn.ac.lk/e15-batch/), [Email](mailto:e5001@ce.pdn.ac.lk)]
+2. E/17/201 Madushani W.T [[Website](http://www.thilini98.me/), [Email](mailto:e17201@eng.pdn.ac.lk)]
 3. E/17/194 Madhushan Ramalingam [[Website](https://www.drmadhushan.me/), [Email](mailto:drmadhushan@gmail.com)]
 
 
