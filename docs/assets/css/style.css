@@ -424,16 +424,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
+#hero .hero-content .btn-get-started, #hero .hero-content .btn-projects{
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
-  border-radius: 2px;
+  padding: 5px 16px;
+  border-radius: 5px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 5px;
   color: #fff;
 }
 
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #0c2e8a;
 }
 
-#hero .hero-content .btn-projects {
+#hero .hero-content .btn-projects  {
   background: #50d8af;
   border: 2px solid #50d8af;
 }
@@ -576,6 +576,19 @@ section {
 
 /* About Section
 --------------------------------*/
+#about .btn-learn{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 16px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 5px;
+  color: #fff;
+}
+
 #about {
   padding: 60px 0 30px 0;
 }
@@ -635,6 +648,16 @@ section {
 
 #about .content ul li {
   padding-bottom: 10px;
+}
+
+#about .btn-learn  {
+  background: #50d8af;
+  border: 2px solid #50d8af;
+}
+
+#about .btn-learn:hover {
+  background: none;
+  color: #50d8af;
 }
 
 /* Services Section
