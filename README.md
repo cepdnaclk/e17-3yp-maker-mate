@@ -9,7 +9,7 @@
 For this project specific case, Maker Mate enables the lab users to apply for the project/ experiment requirements online and collect tools and equipment accordingly from an automated vending machine while the lab admin can manage the entire inventory online with ease. Maker Mate can take similar role but for different use case on demand.
 
 ## Team Members
-1. E/17/201 Madushani Weerakkodige Thilini [[Website](http://www.thilini98.me/), [Email](mailto:e17201@eng.pdn.ac.lk)]
+1. E/17/201 Thilini Madushani [[Website](http://www.thilini98.me/), [Email](mailto:e17201@eng.pdn.ac.lk)]
 2. E/17/342 Thanujan Tharmapalan [[Website](https://github.com/thanujan96), [Email](mailto:e17342@eng.pdn.ac.lk)]
 3. E/17/194 Madhushan Ramalingam [[Website](https://www.drmadhushan.me/), [Email](mailto:drmadhushan@gmail.com)]
 
