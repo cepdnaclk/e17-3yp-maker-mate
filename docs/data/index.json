@@ -1,6 +1,7 @@
 {
     "team": [
         {
+
             "name": "Thanujan T",
             "email": "e17342@eng.pdn.ac.lk",
             "eNumber": "E/17/342",
@@ -17,6 +18,14 @@
             "website": "https://www.thilini98.me/"
         },
         {
+            "name": "Thanujan T.",
+            "email": "e17342@eng.pdn.ac.lk",
+            "eNumber": "E/17/342",
+            "github_profile":"https://github.com/Thanujan96",
+            "linkedin_profile":"https://www.linkedin.com/in/tharmapalan-thanujan-4bb9a1199/",
+            "website": "#"
+        },
+        {
             "name": "Madhushan R.",
             "email": "e17194@eng.pdn.ac.lk",
             "eNumber": "E/17/194",
@@ -29,17 +38,17 @@
         {
             "name": "Dr. Isuru Nawinne",
             "email": "isurunawinne@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
+            "linkedin_profile":"https://www.linkedin.com/in/isuru-nawinne-73302833/",
             "researchgate_profile":"#",
             "website": "#"
         },
         {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
+            "name": "Dr. Mahanama Wickramasinghe",
+            "email": "mahanamaw@eng.pdn.ac.lk",
+            "linkedin_profile":"https://www.linkedin.com/in/mahanama/",
             "researchgate_profile":"#",
             "website": "#"
         }
     ],
-    "tags": ["Web", "Embedded Systems"]
+    "tags": ["Web", "Embedded Systems", "Automation"]
 }
