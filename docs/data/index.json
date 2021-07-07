@@ -1,15 +1,6 @@
 {
     "team": [
         {
-
-            "name": "Thanujan T",
-            "email": "e17342@eng.pdn.ac.lk",
-            "eNumber": "E/17/342",
-            "github_profile":"https://github.com/thanujan96",
-            "linkedin_profile":"www.linkedin.com/in/tharmapalan-thanujan",
-            "website": "https://www.thanujan.me/"
-        },
-        {
             "name": "Madushani W.T",
             "email": "e17201@eng.pdn.ac.lk",
             "eNumber": "E/17/201",
@@ -23,7 +14,7 @@
             "eNumber": "E/17/342",
             "github_profile":"https://github.com/Thanujan96",
             "linkedin_profile":"https://www.linkedin.com/in/tharmapalan-thanujan-4bb9a1199/",
-            "website": "#"
+            "website": "https://www.thanujan.me/"
         },
         {
             "name": "Madhushan R.",
