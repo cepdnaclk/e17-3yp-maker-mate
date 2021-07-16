@@ -36,9 +36,18 @@ For this project specific case, Maker Mate enables the lab users to apply for th
 * Laravel
 * 
 
-#### Mobile Client
+##### <u>Mobile Client</u>
 
+* Flutter
 
+## Budget
+
+|    Item     | Quantity |  Cost  |
+| :---------: | :------: | :----: |
+| Sample item |   qty    | xxx.yy |
+|             |          |        |
+|             |          |        |
+|             |          |        |
 
 ## Team Members
 1. E/17/201 Madushani Weerakkodige Thilini [[Website](http://www.thilini98.me/), [Email](mailto:e17201@eng.pdn.ac.lk)]
