@@ -17,6 +17,14 @@ Maker Mate is a vending system which assits the Maker Space in computer engineer
 * Developing 2 types of sample lockers which can be accessed by authorization. 
 * Developing a user interface to communicate with the maker vending system and control it.
 
+
+
+## Product Architecture
+
+![Maker Mate Architecture](docs\assets\img\animations\product-architecture.gif)
+
+
+
 ## Tech Stack
 
 #### Hardware
