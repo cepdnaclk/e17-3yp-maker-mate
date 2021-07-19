@@ -39,11 +39,21 @@ Maker Mate is a vending system which assits the Maker Space in computer engineer
 |    Item     | Quantity |  Cost  |
 | :---------: | :------: | :----: |
 | Sample item |   qty    | xxx.yy |
-|             |          |        |
+|  Rasperipy  |          |        |
 |             |          |        |
 |             |          |        |
 
+## Task List
+
+- [ ] Collect details about all the tools & equipment stored in Maker Space
+- [ ] Categorize them and plan how 3D models, Instruction sheets, Catalogs and Data sheets collected and connected
+- [ ] Design database model
+- [ ] Build the back-end program with the required user roles
+- [ ] Get the QEMU emulator for Raspberry Pi emulation and get some hands on experience to design console UI.
+- [ ] Add next steps :smiley:
+
 ## Team Members
+
 1. E/17/201 Thilini Madushani [[Website](http://www.thilini98.me/), [Email](mailto:e17201@eng.pdn.ac.lk)]
 2. E/17/342 Thanujan Tharmapalan [[Website](https://github.com/thanujan96), [Email](mailto:e17342@eng.pdn.ac.lk)]
 3. E/17/194 Madhushan Ramalingam [[Website](https://www.drmadhushan.me/), [Email](mailto:drmadhushan@gmail.com)]
