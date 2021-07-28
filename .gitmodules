@@ -1,0 +1,3 @@
+[submodule "code/ce-inventory"]
+	path = code/ce-inventory
+	url = https://github.com/cepdnaclk/smart-inventory-management-system.git
