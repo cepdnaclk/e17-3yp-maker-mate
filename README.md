@@ -10,7 +10,7 @@
 For this project specific case, Maker Mate enables the lab users to apply for the project/ experiment requirements online and collect tools and equipment accordingly from a pickup locker while the lab admin can manage the entire inventory online with ease. Maker Mate can take similar role but for different use case on demand.
 
 ## Introduction
-Maker Mate is a vending system which assits the Maker Space in computer engineering department. It is a vending system with an information console.It shows the details about the tools and equipments in the labrotary. The vending machine is used to lend and return the labrotary tools for students for their projects and experiments. The Maker Mate provide 24 hour service to the students and admins as will make it online throgh and mobile app. The administrators could be able to manage the inventory through this system more efficiently and in real time.
+Maker Mate is a system which assits the makers in computer engineering department. It consists an information console, pickup locker and an inventory management system.The console shows the details about the tools and equipments in the labrotary and also the web version can be accessed from anywhere. The pickup locker is used to pick-up and return the pre-ordered package of components. The Maker Mate provide 24 hour online service to the students and admin. The administrators will be able to manage the inventory through this system more efficiently and in real time.
 
 ## Goals
 * Creating a fully functional inventory management system for the Maker Space.
