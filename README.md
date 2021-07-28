@@ -46,7 +46,6 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 
 |    Item                     | Quantity |  Cost           |
 | :---------:                 | :------: | :----:          |
-| Sample item                 |   qty    | xxx.yy          |
 | Rasperipy                   |    1     | 10,000.00       |
 | LCD screen                  |    1     | 12,000.00       |
 | Camera module               |    1     |  2,000.00       |
