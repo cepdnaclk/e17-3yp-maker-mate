@@ -54,7 +54,7 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 | Power Adapter               |    1     |    750.00       |
 | other Circuit needs         |          |   5000.00       |
 | Material Cost               |          |                 |
-| **Total                    |          | 31,500.00     ** |
+| **Total**                   |          | **31,500.00**   |
 
 ## Task List
 
