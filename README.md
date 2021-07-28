@@ -29,6 +29,7 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 
 #### Hardware
 * Arduino
+* Raspery pi
 
 #### Web Interface
 ##### <u>Front End</u>
@@ -38,7 +39,7 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 * Bootstrap
 ##### <u>Back End</u>
 * Laravel
-* 
+* Mysql
 ##### <u>Mobile Client</u>
 * Flutter
 
