@@ -663,6 +663,7 @@ section {
 
 /* Services Section
 --------------------------------*/
+
 #services {
   padding: 40px 0;
 }
@@ -1072,9 +1073,22 @@ section {
   padding: 30px 0 0 0;
 }
 
+#team .center-wrapper {
+  margin: auto;
+  width: 302pt;
+}
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
+}
+
+#team .member:hover .social{
+  display: block;
+}
+
+#team .member:hover .member-role{
+  display: none;
 }
 
 #team .member .pic {
@@ -1087,7 +1101,8 @@ section {
 }
 
 #team .member .details {
-  background: #50d8af;
+  /* background: #081e5b; */
+  background-image: linear-gradient(to bottom right, #081e5b, #50d8af);
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -1106,6 +1121,7 @@ section {
 }
 
 #team .member .social {
+  display: none;
   margin-top: 5px;
 }
 
@@ -1301,3 +1317,95 @@ section {
 #footer .credits a {
   color: #0c2e8a;
 }
+
+.shadow-box {
+  padding: 40px;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
+  height: 100%;
+}
+
+.shadow-box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+.shadow-box .icon {
+  float: left;
+}
+
+.shadow-box .icon i {
+  color: #444;
+  font-size: 64px;
+  transition: 0.5s;
+  line-height: 0;
+  margin-top: 34px;
+}
+
+.shadow-box .icon i:before {
+  background: #0c2e8a;
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadow-box h4 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.shadow-box h4 a {
+  color: #444;
+}
+
+.shadow-box p {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+
+.iframe-container iframe{
+  width: 852;
+  height: 480;
+}
+
+@media (max-width: 767px) {
+  .shadow-box .shadow-box {
+    margin-bottom: 20px;
+  }
+  .shadow-box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .shadow-box h4, .shadow-box p {
+    margin-left: 0;
+    text-align: center;
+  }
+  .iframe-container iframe{
+    width:368;
+    height: 207;
+  }
+}
+
+.centered-block {
+  display: block;
+  text-align: center;
+}
+
+.centered-block .item-box {
+  margin: 5pt;
+  padding-left: 2pt;
+  padding-right: 2pt;
+  padding-top: 3pt  ;
+  display: inline-block;
+}
+
