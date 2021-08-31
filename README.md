@@ -42,14 +42,14 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 
 |    Item                     | Quantity |  Cost           |
 | :---------:                 | :------: | :----:          |
-| Rasperipy                   |    1     | 10,000.00       |
-| LCD screen                  |    1     | 12,000.00       |
-| Camera module               |    1     |  2,000.00       |
+| Rasperipy                   |    1     | 14,000.00       |
+| LCD screen (depends)        |    1     | 12,000.00       |
+| Touch screen connector      |    1     |  2,000.00       |
 | Preset Lock                 |    1     |  1,000.00       |
 | Power Adapter               |    1     |    750.00       |
 | other Circuit needs         |          |   5000.00       |
 | Material Cost               |          |                 |
-| **Total**                   |          | **31,500.00**   |
+| **Total**                   |          | **34,750.00**   |
 
 ## Task List
 
