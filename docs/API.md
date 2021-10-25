@@ -5,14 +5,17 @@
 # Maker Mate API Documentation
 
 ## Overview
-For this project specific case, Maker Mate enables the lab users to apply for the project/ experiment requirements online and collect tools and equipment accordingly from a pickup locker while the lab admin can manage the entire inventory online with ease. Maker Mate can take similar role but for different use case on demand.
+What is an API?
 
+API stands for Application Programming Interface. An API is a software intermediary that allows two applications to talk to each other.  In other words, an API is the messenger that delivers your request to the provider that you’re requesting it from and then delivers the response back to you.
 
+An API defines functionalities that are independent of their respective implementations, which allows those implementations and definitions to vary without compromising each other. Therefore, a good API makes it easier to develop a program by providing the building blocks.
+
+How do APIs work?
+![](docs\assets\img\api\api_diagram.png)
 
 ## Goals
-* Creating a fully functional inventory management system for the Maker Space.
-* Developing a sample locker which can be accessed by authorized user. 
-* Developing a user interface to navigate and document users with access to pick-up locker.
+
 
 #
 ## Links
