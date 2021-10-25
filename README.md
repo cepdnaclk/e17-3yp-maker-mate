@@ -60,13 +60,14 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 - [x] Categorize them and plan how 3D models, Instruction sheets, Catalogs and Data sheets collected and connected
 - [x] Design database model
 - [x] Prepare moch-ups for GUIs
-- [ ] Build the back-end program with the required user roles
-- [ ] Get the QEMU emulator for Raspberry Pi emulation and get some hands on experience to design console UI.
-- [ ] Test Inventory Management system
+- [x] Build the back-end program with the required user roles
+- [x] Test Inventory Management system
+- [x] Implement required API call to connect MakerMate and inventory mangt.system
+- [] Get the QEMU emulator for Raspberry Pi emulation and get some hands on experience to design console UI.
 - [ ] Learn interfacing webapp with raspberry pi
 - [ ] Build UI interface for flutter mobile app (in charge - @Thanujan96)
 - [ ] Complete 3D modeling of Information console
-- [ ] Implement required API call to connect MakerMate and inventory mangt.system
+
 - [ ] add next steps
 
 ## Team Members
