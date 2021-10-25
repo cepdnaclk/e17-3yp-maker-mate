@@ -40,16 +40,19 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 
 ## Budget
 
-|    Item                     | Quantity |  Cost           |
-| :---------:                 | :------: | :----:          |
-| Rasperipy                   |    1     | 14,000.00       |
-| LCD screen (depends)        |    1     | 12,000.00       |
-| Touch screen connector      |    1     |  2,000.00       |
-| Preset Lock                 |    1     |  1,000.00       |
-| Power Adapter               |    1     |    750.00       |
-| other Circuit needs         |          |   5000.00       |
-| Material Cost               |          |                 |
-| **Total**                   |          | **34,750.00**   |
+|    Item                                           | Unit Price (LKR)           | Quantity  |  Cost                      |
+| :---------:                                       | :--------------:           | :----:    | :----:                     |
+| Raspberry Pi 4B 2GB/4GB                           |9,250.00 - 14,650.00        |    1      |9,250.00 - 14,650.00        |      
+| 7"-15" Capacitive Touch Screen                    |11,700.00 - 60,000.00       |    1      |11,700.00 - 60,000.00       |
+| Ultrasonic Sensor                                 |250.00 	                   |    1 	   |250.00 	                    |
+| ESP-01S WiFi Relay Module                         |365.00                      |    1      |365.00                      | 
+| Solenoid Lock 12V                                 |890.00                      |    1      |890.00                      |
+| 4x4 Key Pad module + frame                        |250.00 + casting cost       |    1      |250.00 + casting cost       |
+| Raspberry PI 4 Power Supply AC 100-240V DC 5V 3A  |675.00                      |    1      |675.00                      |
+| Power Supply Adapter 3 PIN AC/DC 12V 2A           |420.00                      |    1      |420.00                      |
+| Others *                                          |-                           |    -      |5000.00                     |
+|                                                   |                            |           |                            |
+| **Total**                                         |-                           |    -      |**28,800.00 - 82,500.00**   |
 
 ## Task List
 

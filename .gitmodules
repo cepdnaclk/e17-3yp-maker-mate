@@ -1,3 +1,6 @@
 [submodule "code/ce-inventory"]
 	path = code/ce-inventory
 	url = https://github.com/cepdnaclk/smart-inventory-management-system.git
+[submodule "code/icproject"]
+	path = code/icproject
+	url = https://github.com/DrMadhushan/icproject.git
