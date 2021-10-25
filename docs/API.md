@@ -11,8 +11,7 @@ API stands for Application Programming Interface. An API is a software intermedi
 
 An API defines functionalities that are independent of their respective implementations, which allows those implementations and definitions to vary without compromising each other. Therefore, a good API makes it easier to develop a program by providing the building blocks.
 
-How do APIs work?
-![](docs\assets\img\api\api_diagram.png)
+![How do APIs work?](docs\assets\img\api\api_diagram.png)
 
 ## Goals
 
