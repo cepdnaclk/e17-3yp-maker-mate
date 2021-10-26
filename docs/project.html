@@ -313,75 +313,75 @@
             <br>
             <p><b>Functions available for Students</b></p>
             <ul>
-              <li>Get details on components and equipments available in he laboratory</li>
+              <li>Get details on components and equipments available in the laboratory</li>
               <li>View their user details</li>
               <li>Change the necessary account details like password, email, etc.</li>
               <li>Checkout items that can borrow from laboratory</li>
               <li>Create a cart including items that you wish to borrow with required quantities</li>
               <li>Place a order with the selected items</li>
-            </ul>
-          </div>
-          
-          <h4><b>Administrators' UI</b></h4>          
-          <div>
-            <br>
+            </ul><br>
+
+            <h4><b>Administrators' UI</b></h4>                   
             <p><b>Functions available for Administrators</b></p>
+            <p>
             <ul>
-               <li>View their user details</li>
+              <li>View their user details</li>
               <li>Change the necessary account details like password, email, etc.</li>
               <li>Manage inventory</li>
               <li>Add new components and equipments to the system</li>
               <li>Check the orders applied by students</li>
               <li>Accepting orders and allowing students to pick them up</li>
-            </ul>
-          </div>
-        </div>       
-      </div>
-      
+            </ul></p>
+          </div> 
+        </div>           
+      </div>      
     </section>
 
     <section id="Backend">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Backend Implementations</h2>
-          <p>API calls for mobile app and information console</p>          
-        </div> 
-        <h4><b>Implementation of Information Console</b></h4>  
+          <p>API calls for mobile app and information console</p>  
+          <h4><b>Implementation of Information Console</b></h4>  
         <div class="" style="display: block; text-align:center" >
           <img src="assets\img\server\mqtt.png" width="80% align-items-center">
         </div> <br>   
         <div>
-          <p>What is MQTT?<br>
+          <p><b>What is MQTT?</b><br>
             MQTT (MQ Telemetry Transport) is a lightweight open messaging protocol that provides resource-constrained network clients 
-            with a simple way to distribute telemetry information in low-bandwidth environments. The 
-            protocol, which employs a publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication.</p> 
-        </div>  
-        <div>
-          <p>What is QoS?<br>
+            with a simple way to distribute telemetry information in low-bandwidth environments. The protocol, which employs a 
+            publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication.</p><br> 
+        
+          <p><b>What is QoS?</b><br>
             Quality of Service (QoS) in MQTT messaging is an agreement between sender and receiver on the guarantee of delivering a 
-            message.
-            There are three levels of QoS :<br>
-                 0 - at most once<br>
-                 1 - at least once<br>
-                 2 - exactly once<br>
-            When a client (e.g. a remote IoT device) is publishing to a broker, the client determines the QoS level for that message. When 
+            message. There are three levels of QoS :</p>
+          <p>
+            <ul>
+              <li>0 - at most once</li>
+              <li>1 - at least once</li>
+              <li>2- exactly once</li>
+            </ul>
+          </p><br>
+
+          <P>When a client (e.g. a remote IoT device) is publishing to a broker, the client determines the QoS level for that message. When 
             the broker sends the message to a subscribing client, the QoS set by the first client for that message is used again.So 
-            effectively the original publisher of any message determines the QoS of the message all the way to the final recipients.
-        </div> 
-        <div>
+            effectively the original publisher of any message determines the QoS of the message all the way to the final recipients.</p><br>            
+        
           <p>QoS is a key feature of the MQTT protocol. QoS gives the client the power to choose a level of service that matches its
             network reliability and application logic. Because MQTT manages the re-transmission of messages and guarantees delivery 
-            (even when the underlying transport is not reliable), QoS makes communication in unreliable networks a lot easier.</p>
+            (even when the underlying transport is not reliable), QoS makes communication in unreliable networks a lot easier.</p><br>
+
           <p>For our application we need to receive all messages exactly once and the duplicate delivery can harm the functioning of 
             application. Therefore, we used QoS = 2, as it is the highest level of service in MQTT and it ensure the property that 
             messages are received only once by the intended recipients. Eventhough it is the safest, QoS 2 interaction takes more 
             time to complete. The guarantee is provided by at least two request/response flows (a four-part handshake) 
             between the sender and the receiver. The sender and receiver use the packet identifier of the original PUBLISH message 
-            to coordinate delivery of the message.</p>
-          <p>Therfeore, with integration of HTTPS and MQTT the function of Information Console was implemented.</p>
-        </div>
-       
-      </div>      
+            to coordinate delivery of the message.</p><br>
+
+          <p>Therefore, with the integration of HTTPS and MQTT the functioning of Information Console was implemented.</p>
+        </div>   
+
+        </div>          
     </section>
 
     <section id="budget">
