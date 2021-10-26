@@ -32,6 +32,7 @@ APIs that will return the data related to the users about their orders.
 * **host/api/auth/user/orders/{orderId}/otp**
 * **host/api/auth/user/orders/{orderId}/otp/{otp}**
 * **host/api/auth/user/orders/{orderId}**
+
 APIs used in backend that facilitate admins to add, delete or update the information about components and equipments in maker space.
 * **host/api/admin/components/items**
 * **host/api/admin/components/items/{componentItem}**
@@ -41,12 +42,13 @@ APIs used in backend that facilitate admins to add, delete or update the informa
 * **host/api/admin/equipments/items/{equipmentItem}**
 * **host/api/admin/equipments/types**
 * **host/api/admin/equipments/types/{equipmentType}**
+
 APIs used in order to manage and monitor the orders made by students
 * **host/api/admin/order**
 * **host/api/admin/order/{orderId}**
 
 ### Public use API Requests
-
+API requests that need not to be authentcated.
 * **host/api/auth/signup**
 * **host/api/auth/login**
 * **host/api/auth/logout**
