@@ -21,18 +21,18 @@ Application programming interfaces consist of two components:
 * Software interface written to the specification that represents it
 
 ## API Requests 
-**host/api/auth/login -> email,pass(data)**     
+* **host/api/auth/login -> email,pass(data)**     
 
-**host/api/auth/user -> token(auth header)**\
+* **host/api/auth/user -> token(auth header)**\
 Return the details of the logged in user.
 
-**host/api/auth/orders -> token(auth header)**\
+* **host/api/auth/orders -> token(auth header)**\
 Return the deatils of the orders that have been placed by the user. This will indicate wether the orders are accepted or they are still in progressing stage or weher we can pick them up. This respose will include all the orders that made by the user.
 
-**host/api/auth/orders/{orderid} -> token(auth header)**\
+* **host/api/auth/orders/{orderid} -> token(auth header)**\
 Returns the specific details corresponding to one specific order that has been placed by the user.
 
-**host api/user/orders/id/opt/number -> returns true if it's same as the otp**\
+* **host api/user/orders/id/opt/number -> returns true if it's same as the otp**\
 This request is used once the user received the op and need to pick up their package. 
 
 #
