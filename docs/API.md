@@ -54,7 +54,6 @@ API requests that need not to be authentcated.
 * **host/api/auth/logout**
 * **host/api/auth/password/email**
 * **host/api/auth/password/reset**
-
 * **host/api/components**
 * **host/api/components/items**
 * **host/api/components/items/search**
@@ -62,7 +61,6 @@ API requests that need not to be authentcated.
 * **host/api/components/types**
 * **host/api/components/types/search**
 * **host/api/components/types/{componentType}**
-
 * **host/api/equipments**
 * **host/api/equipments/items**
 * **host/api/equipments/items/search**
@@ -70,7 +68,6 @@ API requests that need not to be authentcated.
 * **host/api/equipments/types**
 * **host/api/equipments/types/search**
 * **host/api/equipments/types/{componentType}**
-
 * **host/api/search**
 
 #### Some APIs and there details in depth 
