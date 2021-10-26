@@ -89,6 +89,9 @@
               <li><a href="#product-architecture">Architecture</a></li>
               <li><a href="#project-components">Components</a></li>
               <li><a href="#hardware-interface">Interfacing</a></li>
+              <li><a href="#frontend">Frontend & Backend</a></li>
+              <li><a href = "API">API Documentation</a></li>
+              <li><a href="#testing">Software Testing</a></li>
               <li><a href="#budget">Estimated Budget</a></li>
             </ul>
           </li>
@@ -289,6 +292,135 @@
             <img src="assets/img/items/HardwareInterfacing-light.png" width="80%">
           </div>
         </div>
+      </div>
+      
+    </section>
+
+    <section id="frontend">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Frontend Implementations</h2>
+          <p>User Interface implementations and functions available for maker space users.</p>
+          <br>
+
+          <h4>Students' UI</h4>
+          <p>Home Page</p>
+          <div class="" style="display: block; text-align:center" >
+            <img src="assets\img\ui\ui_1.png" width="60% align-items-center">
+          </div>
+          <p>Display account details</p>
+          <div class="" style="display: block; text-align:center" >
+            <img src="assets\img\ui\ui_2.png" width="60% align-items-center">
+          </div>            
+            <br>
+            <p><b>Functions available for Students</b></p>
+            <ul>
+              <li>Get details on components and equipments available in the laboratory</li>
+              <li>View their user details</li>
+              <li>Change the necessary account details like password, email, etc.</li>
+              <li>Checkout items that can borrow from laboratory</li>
+              <li>Create a cart including items that you wish to borrow with required quantities</li>
+              <li>Place a order with the selected items</li>
+            </ul><br>
+
+            <h4>Administrators' UI</h4>                   
+            <p><b>Functions available for Administrators</b></p>
+            <p>
+            <ul>
+              <li>View their user details</li>
+              <li>Change the necessary account details like password, email, etc.</li>
+              <li>Manage inventory</li>
+              <li>Add new components and equipments to the system</li>
+              <li>Check the orders applied by students</li>
+              <li>Accepting orders and allowing students to pick them up</li>
+            </ul></p>
+          </div> 
+        </div>           
+      </div>      
+    </section>
+
+    <section id="backend">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Backend Implementations</h2>
+          <p>
+          API calls are implemented to accessed by external origins like mobile app and information console<br>
+            <a href="API">Click here to view documentation</a>
+          </p> 
+          <h4>Implementation of Information Console</h4>  
+        <div class="" style="display: block; text-align:center" >
+          <img src="assets\img\server\mqtt.png" width="80% align-items-center">
+        </div> <br>   
+        <div>
+          <p><b>What is MQTT?</b><br>
+            MQTT (MQ Telemetry Transport) is a lightweight open messaging protocol that provides resource-constrained network clients 
+            with a simple way to distribute telemetry information in low-bandwidth environments. The protocol, which employs a 
+            publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication.</p><br> 
+        
+          <p><b>What is QoS?</b><br>
+            Quality of Service (QoS) in MQTT messaging is an agreement between sender and receiver on the guarantee of delivering a 
+            message. There are three levels of QoS :</p>
+          <p>
+            <ul>
+              <li>0 - at most once</li>
+              <li>1 - at least once</li>
+              <li>2- exactly once</li>
+            </ul>
+          </p><br>
+
+          <P>When a client (e.g. a remote IoT device) is publishing to a broker, the client determines the QoS level for that message. When 
+            the broker sends the message to a subscribing client, the QoS set by the first client for that message is used again.So 
+            effectively the original publisher of any message determines the QoS of the message all the way to the final recipients.</p><br>            
+        
+          <p>QoS is a key feature of the MQTT protocol. QoS gives the client the power to choose a level of service that matches its
+            network reliability and application logic. Because MQTT manages the re-transmission of messages and guarantees delivery 
+            (even when the underlying transport is not reliable), QoS makes communication in unreliable networks a lot easier.</p><br>
+
+          <p><i>For our application we need to receive all messages exactly once and the duplicate delivery can harm the functioning of 
+            application. Therefore, we used QoS = 2,</i> as it is the highest level of service in MQTT and it ensure the property that 
+            messages are received only once by the intended recipients. Eventhough it is the safest, QoS 2 interaction takes more 
+            time to complete. The guarantee is provided by at least two request/response flows (a four-part handshake) 
+            between the sender and the receiver. The sender and receiver use the packet identifier of the original PUBLISH message 
+            to coordinate delivery of the message.</p><br>
+
+          <p>Therefore, with the integration of HTTPS and MQTT the functioning of Information Console was implemented.</p>
+        </div>   
+
+        </div>          
+    </section>
+
+    <section id="testing">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Testing</h2>
+          <h3>Software Testing</h3>
+
+          <div>
+            <p>The software testing of our product required, basically two steps,
+            <ul>
+              <li>Authentication Testing</li>
+              <li>Functionality Testing</li>
+              <p>In testing the functioning of our product, we need to test both the Information console and Inventory 
+                Management system. This will ensure the proper functioning of them and it helps us to fix the errors.</p>
+            </ul>
+            </p>
+          </div>
+          <div>
+            <p><b>Tools used in software testing</b></p>
+            <ul>
+              <li><div class="" style="display:inline-block">
+                <img src="assets/img/api/postman.png" width="80%"></div> 
+              </li>
+              <p>This is an application used for API testing. In our application we used it in testing the API calls that 
+                required for functioning of Mobile app and Information Console. It was easy to tests HTTP requests, as it 
+                is with a graphical user interface, through which we obtain different types of responses that need to be 
+                subsequently validated. It also offers many endpoint interaction methods(GET, POST, PUT, DELETE) and it 
+                has the possibility to create different testing environments that made our work easy. Futher, it helps us
+                optimize our time when executing tests.</p>        
+            </ul>
+          </div>
+
+        </div>        
       </div>
       
     </section>
