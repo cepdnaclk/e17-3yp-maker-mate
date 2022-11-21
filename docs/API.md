@@ -1,7 +1,3 @@
-
-[//]: # "Please refer the instructions in below URL for the configurations"
-[//]: # "https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project"
-
 # Maker Mate API Documentation
 
 ## Overview
@@ -87,7 +83,6 @@ Returns the specific details corresponding to one specific order that has been p
 * **host/api/user/orders/id/opt/number -> returns true if it's same as the otp**\
 This request is used once the user received the op and need to pick up their package. 
 
-#
 ## Links
 1. [Project page](https://cepdnaclk.github.io/e17-3yp-maker-mate)
 2. [GitHub repo](https://github.com/cepdnaclk/e17-3yp-maker-mate)
