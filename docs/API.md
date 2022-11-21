@@ -5,6 +5,8 @@
 # Maker Mate API Documentation
 
 ## Overview
+<i>For fundamental knowledge sharing</i>
+
 #### What is an API?
 
 API stands for Application Programming Interface. An API is a software intermediary that allows two applications to talk to each other.  In other words, an API is the messenger that delivers your request to the provider that you’re requesting it from and then delivers the response back to you.
@@ -20,7 +22,7 @@ Application programming interfaces consist of two components:
 ![](assets/img/api/api.png)
 
 
-## API Requests 
+# API Requests 
 
 In our applcation we will be having both authenticated API requests and APIs for public use. 
 
