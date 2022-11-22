@@ -92,11 +92,11 @@
           <div class="col-lg-8">
             
             <div class="portfolio-description">
-              <h2>Why we used How Electronfor desktop application development?</h2>
+              <h2>SSL certificates for ESP32 01s</h2>
               <p>
-                Our project has a component to show a user interface for the students who use maker space using a touch screen. Our initial plan was to use a raspberry pi as a mini computer connected to a touch screen. Options we had to develop the UI is using a web application hosted in cloud (department server) or using a standalone application to install on Raspberry Pi.<br><br>
-                Of course we had a concern about our knowledge on different technologies to design the UI. Since all the members in the team are comfortable with web designing, the preferred way is to go with a web application. Here comes the problem. We should keep space for future integrations and developments. We need to have more control on operating system level processes, but web applications have limitations over that area.<br><br>
-                Therefore we need a web designing framework, but as a standalone application. Then we found that the only such option with a good documentation is “Electron”. We used Express JS server serving EJS templates embedded inside an Electron application. EJS templates are handy to use just with the knowledge of HTML, CSS and JS.<br><br>
+                ESP32 01 S is a widely used micro device used in IoT projects. It is highly used with MQTT protocol. In our project, we initially used locally hosted mosquito broker to connect our clients. When locally hosting security is not setup as the local network is protected. Then we hosted a freely available HiveMQ MQTT broker cloud cluster. To connect to an 3rd party cloud cluster, we need to setup security certificates on embedded devices.<br><br>
+                We used the <a href=“https://console.hivemq.cloud/clients/arduino-esp8266?uuid=ff907ed6936f429bb7cceacada6c31ba”>official documentation</a> provided by HiveMQ to upload SSL certificates to ESP32 01S. <br><br>
+                When you are uploading SSL certificates to the device be aware of memory constrains (EEPROM) of ESP32 01S module you use. Certificates with the program code can fully occupy your EEPROM. If you successfully upload the certificate you can use the 3rd party cloud MQTT broker without any hassle.<br><br>
 
               </p>
             </div>
@@ -118,15 +118,11 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/blog/why_electron/1.jpg" alt="">
+                  <img src="../assets/img/blog/ssl_certificates_for_esp/1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/blog/why_electron/2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/blog/why_electron/3.jpg" alt="">
+                  <img src="../assets/img/blog/ssl_certificates_for_esp/2.jpg" alt="">
                 </div>
 
               </div>
