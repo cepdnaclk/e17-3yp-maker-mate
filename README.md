@@ -58,22 +58,6 @@ Maker Mate is a system which assits the makers in computer engineering departmen
 |                                                   |                            |           |                            |
 | **Total**                                         |-                           |    -      |**28,800.00 - 82,500.00**   |
 
-## Task List
-
-- [x] Collect details about all the tools & equipment stored in Maker Space
-- [x] Categorize them and plan how 3D models, Instruction sheets, Catalogs and Data sheets collected and connected
-- [x] Design database model
-- [x] Prepare moch-ups for GUIs
-- [x] Build the back-end program with the required user roles
-- [x] Test Inventory Management system
-- [x] Implement required API call to connect MakerMate and inventory mangt.system
-- [] Get the QEMU emulator for Raspberry Pi emulation and get some hands on experience to design console UI.
-- [ ] Learn interfacing webapp with raspberry pi
-- [ ] Build UI interface for flutter mobile app (in charge - @Thanujan96)
-- [ ] Complete 3D modeling of Information console
-
-- [ ] add next steps
-
 ## Team Members
 
 1. E/17/201 Thilini Madushani [[Website](http://www.thilini98.me/), [Email](mailto:e17201@eng.pdn.ac.lk)]
