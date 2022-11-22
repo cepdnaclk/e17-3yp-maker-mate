@@ -5,7 +5,7 @@
 # Maker Mate
 
 ## Project Repositories:
-### [CE-Smart Inventory Management System]()
+### [CE-Smart Inventory Management System](https://github.com/thanujan96/smart-inventory-management-system/tree/production)
 ### [Information Console](https://github.com/DrMadhushan/information-console)
 
 ## Overview
