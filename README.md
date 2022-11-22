@@ -4,6 +4,10 @@
 
 # Maker Mate
 
+## Project Repositories:
+### [CE-Smart Inventory Management System]()
+### [Information Console](https://github.com/DrMadhushan/information-console)
+
 ## Overview
 For this project specific case, Maker Mate enables the lab users to apply for the project/ experiment requirements online and collect tools and equipment accordingly from a pickup locker while the lab admin can manage the entire inventory online with ease. Maker Mate can take similar role but for different use case on demand.
 
